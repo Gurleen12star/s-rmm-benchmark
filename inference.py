@@ -1,3 +1,7 @@
+"""
+Support-Recursive-Mentor-Meta (S-RMM) Inference Loop.
+Provides the entrypoint for automated agentic evaluation.
+"""
 import os
 import json
 import re

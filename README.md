@@ -12,9 +12,16 @@ pinned: false
 # S-RMM: Advanced Customer Support Sandbox
 
 ## Environment Description & Motivation
-S-RMM (Support-Recursive-Mentor-Meta) is a Deterministic OpenEnv Benchmark explicitly built to simulate Live Customer Support Centers running high-risk operations. Unlike traditional quality assurance scrapers, S-RMM rigorously models the reality of enterprise support desks: Agents must perform complex API operations (such as processing refunds) while dynamically managing an active Customer Frustration Tracker.
+S-RMM (Support-Recursive-Mentor-Meta) is a Deterministic OpenEnv Benchmark explicitly built to simulate **Live Customer Support Centers** running high-risk operations. It is uniquely designed for **Customer Service Agents** to operate in a complex environment where they must resolve multi-step queries using various external tools and APIs. 
+
+Unlike traditional quality assurance scrapers, S-RMM rigorously models the reality of enterprise support desks: Agents must perform complex API operations (such as processing refunds) while dynamically managing an active Customer Frustration Tracker.
 
 This environment treats the evaluating agent as a Backend SRE (Site Reliability Engineer) or Fintech Orchestrator. It enforces Zero-Trust State Management and penalizes models that hallucinate tool calls or lack proper telemetry tracing. Should a model hallucinate a financial refund or attempt to bypass a Multi-Factor Authentication (MFA) lock, the environment physically executes an Atomic Rollback to protect the internal data silos.
+
+---
+
+## Deployment
+This environment is optimized for high-performance automated evaluation and is deployed via a specialized Hugging Face Hub API integration. The deployment pipeline uses a custom `deploy_hf.py` script that manages codebase synchronization while preventing the inclusion of heavy local environment binaries, ensuring lean and fast Docker builds on Hugging Face Spaces.
 
 ---
 
