@@ -23,6 +23,10 @@ This environment treats the evaluating agent as a Backend SRE (Site Reliability 
 ## Deployment
 This environment is optimized for high-performance automated evaluation and is deployed via a specialized Hugging Face Hub API integration. The deployment pipeline uses a custom `deploy_hf.py` script that manages codebase synchronization while preventing the inclusion of heavy local environment binaries, ensuring lean and fast Docker builds on Hugging Face Spaces.
 
+**Official Links:**
+- **GitHub Repository:** [Gurleen12star/s-rmm-benchmark](https://github.com/Gurleen12star/s-rmm-benchmark)
+- **Hugging Face Space:** [Gurleen12/s-rmm-benchmark](https://huggingface.co/spaces/Gurleen12/s-rmm-benchmark)
+
 ---
 
 ## The Disruption: Bridging Product & Protocol
