@@ -1,0 +1,40 @@
+﻿[START] task=data_alignment_easy env=s_rmm_benchmark model=Qwen/Qwen2.5-72B-Instruct
+[STEP] step=1 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=2 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=3 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=4 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=5 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=6 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=7 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=8 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[END] success=false steps=8 score=0.000 rewards=0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+[START] task=support_ticket_medium env=s_rmm_benchmark model=Qwen/Qwen2.5-72B-Instruct
+[STEP] step=1 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=2 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=3 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=4 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=5 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=6 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=7 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=8 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[END] success=false steps=8 score=0.000 rewards=0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+[START] task=adversarial_defense_hard env=s_rmm_benchmark model=Qwen/Qwen2.5-72B-Instruct
+[STEP] step=1 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=2 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=3 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=4 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=5 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=6 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=7 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=8 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[END] success=false steps=8 score=0.000 rewards=0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+[START] task=iam_governance_extreme env=s_rmm_benchmark model=Qwen/Qwen2.5-72B-Instruct
+[STEP] step=1 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=2 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=3 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=4 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=5 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=6 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=7 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[STEP] step=8 action=DENY_SIGNAL reward=0.00 done=false error=null reasoning_hash=fallback due to api error: Error code: 401 - {'error': {'message': 
+[END] success=false steps=8 score=0.000 rewards=0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00

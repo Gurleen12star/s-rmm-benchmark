@@ -1,0 +1,18 @@
+spec_version: "1.0"
+name: "s_rmm_benchmark"
+benchmark: "autonomous_cloud_sre_v1"
+version: "1.0.0"
+description: "S-RMM: An Adversarial Sandbox for Agentic Governance in Zero-Trust Systems."
+tasks:
+  - id: "data_alignment_easy"
+    name: "Customer Profile Data Sync"
+    difficulty: 0.2
+  - id: "support_ticket_medium"
+    name: "Irate Customer Refund & CSAT"
+    difficulty: 0.6
+  - id: "adversarial_defense_hard"
+    name: "VIP Support Identity Verification (MFA)"
+    difficulty: 1.0
+  - id: "iam_governance_extreme"
+    name: "Tier-2 Support Escalation Routing"
+    difficulty: 1.5
