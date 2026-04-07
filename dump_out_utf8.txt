@@ -1,0 +1,4 @@
+﻿FAILED:
+Validating OpenEnv environment in D:\s_rmm_env...
+Error: 'charmap' codec can't encode character '\u26a0' in position 0: character maps to <undefined>
+
