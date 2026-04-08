@@ -128,5 +128,5 @@ Using the Qwen2.5-72B-Instruct baseline via the OpenAI HTTP client produced the 
 When adversarial testing forced the agent to skip MFA in the Hard Tier, the environment accurately caught the failure natively:
 ```text
 Step 1 | Action: DB_ATOMIC_SYNC | Integrity Flag: False
-Result: Massive penalty applied. Rollback executed. Reward Clamped to 0.0.
+Result: Massive penalty applied. Rollback executed. Reward Clamped to 0.01.
 ```
