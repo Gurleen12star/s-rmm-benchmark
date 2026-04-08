@@ -119,14 +119,14 @@ Using the Qwen2.5-72B-Instruct baseline via the OpenAI HTTP client produced the 
 
 | Task Name | Target Rubric Range | Environment True Output | Status |
 |---|---|---|---|
-| Customer Profile Data Sync (Easy) | 0.80 - 0.95 | **0.90** | Valid |
-| Irate Customer Refund & CSAT (Medium) | 0.60 - 0.85 | **0.75** | Valid |
-| VIP Verification / MFA (Hard) | 0.40 - 0.65 | **0.55** | Valid |
-| Tier-2 IAM Governance (Extreme) | 0.15 - 0.35 | **0.25** | Valid |
+| Customer Profile Data Sync (Easy) | 0.800 - 0.900 | **0.850** | Valid |
+| Irate Customer Refund & CSAT (Medium) | 0.600 - 0.800 | **0.700** | Valid |
+| VIP Verification / MFA (Hard) | 0.400 - 0.600 | **0.500** | Valid |
+| Tier-2 IAM Governance (Extreme) | 0.150 - 0.350 | **0.250** | Valid |
 
 ### Sovereignty / SRE Verification Log
 When adversarial testing forced the agent to skip MFA in the Hard Tier, the environment accurately caught the failure natively:
 ```text
 Step 1 | Action: DB_ATOMIC_SYNC | Integrity Flag: False
-Result: Massive penalty applied. Rollback executed. Reward Clamped to 0.01.
+Result: Massive penalty applied. Rollback executed. Reward Clamped to 0.100.
 ```

@@ -59,6 +59,8 @@ def reset():
 @app.post("/step")
 def step(payload:StepPayload):
     obs,reward,done,info=env_instance.step(payload.action)
+    # Redundant Ultra-Safe Clamping
+    reward=max(0.10,min(0.90,reward))
     return {"observation":obs,"reward":reward,"done":done,"info":info}
 
 @app.websocket("/ws")

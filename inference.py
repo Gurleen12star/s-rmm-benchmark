@@ -42,7 +42,7 @@ def run_task(client:OpenAI,model_name:str,task_name:str)->None:
             break
             
     score = sum(rewards) / len(rewards) if rewards else 0.5
-    score = max(0.05, min(0.95, score))
+    score = max(0.10, min(0.90, score))
     success = score >= 0.6
     log_end(success, steps_taken, score, rewards)
 
