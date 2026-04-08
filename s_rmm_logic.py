@@ -170,5 +170,5 @@ class SRMMEnv:
             customer_frustration=self.frustration,
             server_trace_id=action.trace_id or "MISSING-TRACE"
         )
-        reward=max(0.01,min(0.99,reward))
+        reward=max(0.05,min(0.95,reward))
         return obs,reward,done,{}

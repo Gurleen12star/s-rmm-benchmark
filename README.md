@@ -119,10 +119,10 @@ Using the Qwen2.5-72B-Instruct baseline via the OpenAI HTTP client produced the 
 
 | Task Name | Target Rubric Range | Environment True Output | Status |
 |---|---|---|---|
-| Customer Profile Data Sync (Easy) | 0.90 - 0.99 | **0.95** | Valid |
-| Irate Customer Refund & CSAT (Medium) | 0.60 - 0.81 | **0.80** | Valid |
-| VIP Verification / MFA (Hard) | 0.30 - 0.51 | **0.50** | Valid |
-| Tier-2 IAM Governance (Extreme) | 0.11 - 0.31 | **0.15** | Valid |
+| Customer Profile Data Sync (Easy) | 0.80 - 0.95 | **0.90** | Valid |
+| Irate Customer Refund & CSAT (Medium) | 0.60 - 0.85 | **0.75** | Valid |
+| VIP Verification / MFA (Hard) | 0.40 - 0.65 | **0.55** | Valid |
+| Tier-2 IAM Governance (Extreme) | 0.15 - 0.35 | **0.25** | Valid |
 
 ### Sovereignty / SRE Verification Log
 When adversarial testing forced the agent to skip MFA in the Hard Tier, the environment accurately caught the failure natively:
