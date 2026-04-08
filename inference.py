@@ -9,7 +9,7 @@ from models import Action
 def run_task(client:OpenAI,model_name:str,task_name:str)->None:
     os.environ["MY_ENV_V4_TASK"]=task_name
     env=SRMMEnv(seed=42)
-    log_start(task_name, "s_rmm_benchmark", model_name)
+    log_start(task_name, "autonomous_cloud_sre_v1", model_name)
     obs = env.reset()
     rewards = []
     steps_taken = 0
